@@ -1,0 +1,114 @@
+body {
+    background-image: url(/img/ai-generated-8973969.jpg);
+    background-size: 100% auto; /* 50% width, auto height to maintain aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+  }
+  
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.left img {
+  width: 90px;
+}
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 33%;
+  margin: 12px auto;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+
+  font-size: 25px;
+}
+.navbar li a {
+  display: inline-block;
+  color: white;
+  padding: 34px 16px;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+  background-color: rgb(95, 92, 92);
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container {
+  border: 6px solid rgb(172, 165, 165); 
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 29px;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 2%;
+    border: 2px solid black;
+    font-size:25px ;
+    border-radius:8px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px;
+}
+.container h1{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 8px;
+    
+    
+}
+.container h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.formgroup button{
+    display: block;
+    width:72px;
+    margin: 15px auto;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: large;
+
+}
+.formgroup button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: grey;
+}
